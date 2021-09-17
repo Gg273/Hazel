@@ -12,5 +12,7 @@ namespace Hazel {
 		void Run();
 	};
 
-	Hazel::Application* CreateApplication();
+
+	// To be define in CLIENT.
+	Application* CreateApplication();
 }
